@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="WBL_fav.png">
+<link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+    function toggleSidebar(){
+
+		document.getElementById("left_panel").classList.toggle('active');
+
+  }
+
+	$(function(){
+		$("#home").click(function () {
+		
+			$('html, body').animate({
+				scrollTop: $("#promo_vid").offset().top
+			},500);
+			return false;
+		});
+	});
+	
+	$(function(){
+		$("#price").click(function () {
+		
+			$('html, body').animate({
+				scrollTop: $("#price_boi").offset().top
+			},500);
+			return false;
+		});
+	});
+	
+	$(function(){
+		$("#contact_tr").click(function () {
+		
+			$('html, body').animate({
+				scrollTop: $("#kontakt").offset().top
+			},500);
+			return false;
+		});
+	});	
+</script>
+
+<body>
+	<div id="blk">
+    <div id="LOGO_POS">
+	<nav id="HEADER">
+   
+   		<li id="MENU" onclick="toggleSidebar()">MENU</li>
+        <li id="LOGO">WDM</li>
+    
+    </nav>
+	</div>
+	</div>
+
+    <div id="left_panel">
+    
+    	<li class="bkg" id="home" onclick="toggleSidebar()">Home</h1>
+        <li class="bkg" id="price" onclick="toggleSidebar()">Prices</h1>
+        <li class="bkg" id="contact_tr" onclick="toggleSidebar()">Contact me</h1>
+    
+	</div>
+ 	
+	<embed id="promo_vid"
+	src="https://www.youtube.com/v/NHXJt9zCOQY">   
+    
+	<h2 id="pres_text">IN THIS VIDEO I PRESENT YOU SOME OF MY WORK THAT I'VE DONE IN THE PAST. IF YOU ARE INTERESTED PRESS ON THE MENU BUTTON AND SELECT CONTACT ME! IF YOU WANT TO SEE THE PRICES SELECT PRICES FROM THE LEFT SIDE MENU!<h2>
+
+	<h1 class="title" id="price_boi">Prices</h1>
+
+	<div id="options">
+		
+		<div id="normal_site">
+			<div id="offer_name">
+				<h3 class="pr_title">Normal</h3>
+				<h3 class="pr_title">Website</h3>
+				<h3 class="pr">40$</h3>
+			</div>
+			<div id="offer">
+				<li class="of_lst">good quality</li>
+				<li class="of_lst">convenient price</li>
+				<li class="of_lst">help to find a hosting-domain service</li>
+				<li class="of_lst">built from scratch</li>
+				<li class="of_lst">HTML CSS JS</li>
+			</div>
+		</div>
+		<div id="protected_site">
+			<div id="offer_name_2">
+				<h3 class="pr_title">Protected</h3>
+				<h3 class="pr_title">Website</h3>
+				<h3 class="pr">50$</h3>
+			</div>
+			<div id="offer">
+				<li class="of_lst">good quality</li>
+				<li class="of_lst">convenient price</li>
+				<li class="of_lst">help to find a hosting-domain service</li>
+				<li class="of_lst">built from scratch</li>
+				<li class="of_lst">HTML CSS JS</li>
+				<li class="of_lst">image-copy protection</li>
+			</div>			
+		</div>
+		
+	</div>
+    
+    
+    <div id="kontakt">
+    <h1 class="title" id="contct">Contact me</h1>
+    <div id="contact">
+    
+    	<h3 class="info">Email: horimara@gmail.com</h3>
+    	<h3 class="info">Phone number: 0757721266</h3>
+        <a href="https://www.fiverr.com/share/Ke6zaV" class="lnk" style="text-decoration:none;"><h3>Fiverr offer: https://www.fiverr.com/share/Ke6zaV</h3></a>
+        <div id="Social_media_list">
+        	<li>
+                <a href="https://www.instagram.com/marandoiuhoria/">
+                    <span class="fa fa-instagram" aria-hidden="true" id="sp" style="background-color:#FF33FF;"></span>   
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://www.facebook.com/HMarandoiu-Web-Developement-459306544802708/?">
+                    <span class="fa fa-facebook" aria-hidden="true" id="sp" style="background-color:#0033FF;"></span>   
+                </a>
+            </li>
+            
+        </div>
+        
+    </div>
+    </div>
+	
+</body>
+
+
+</html>
+
+
+
+
+
